@@ -17,3 +17,4 @@ Before committing, install the our Git hooks:
 ```
 git config --local core.hooksPath .githooks
 ```
+- Warmup
