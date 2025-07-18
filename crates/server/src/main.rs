@@ -6,5 +6,6 @@ fn index(_req: Request) -> Response {
 }
 
 fn main() {
+    println!("Hello world!");
     miniserve::Server::new().route("/", index).run()
 }
